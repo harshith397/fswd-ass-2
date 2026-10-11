@@ -1,0 +1,95 @@
+/* Stopwatch.css - Clean, grounded, realistic timer styles */
+.stopwatch-box {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.stopwatch-display {
+  background: #212529;
+  color: #00e5ff;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch-time {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.stopwatch-labels {
+  color: #adb5bd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-top: 6px;
+}
+
+.stopwatch-status {
+  font-size: 0.9rem;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+.stopwatch-status strong {
+  color: #212529;
+}
+
+.stopwatch-controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.sw-btn {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.sw-btn-start {
+  background-color: #198754;
+  color: #ffffff;
+}
+
+.sw-btn-start:hover:not(:disabled) {
+  background-color: #157347;
+}
+
+.sw-btn-pause {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.sw-btn-pause:hover:not(:disabled) {
+  background-color: #ffca2c;
+}
+
+.sw-btn-reset {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.sw-btn-reset:hover:not(:disabled) {
+  background-color: #bb2d3b;
+}
+
+.sw-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

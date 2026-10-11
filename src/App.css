@@ -1,0 +1,192 @@
+/* App.css - Clean, authentic academic layout */
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+/* Page Header */
+.page-header {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.page-header h1 {
+  font-size: 1.4rem;
+  color: #495057;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.page-header h2 {
+  font-size: 1.8rem;
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.student-note {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin: 0;
+}
+
+/* Card Sections for Questions */
+.card-section {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.section-title-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.badge {
+  background: #0d6efd;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section-title-bar h3 {
+  font-size: 1.3rem;
+  color: #212529;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task-desc {
+  background: #f8f9fa;
+  border-left: 3px solid #0d6efd;
+  padding: 10px 14px;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.92rem;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.task-desc code {
+  background: #e9ecef;
+  color: #d63384;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.88rem;
+}
+
+/* Question 1: Product Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Question 2: Button Showcase */
+.button-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.output-box {
+  background: #e7f1ff;
+  border: 1px solid #b6d4fe;
+  color: #084298;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.92rem;
+}
+
+.styling-notes {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.styling-notes ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.styling-notes li {
+  margin-bottom: 6px;
+}
+
+.styling-notes li:last-child {
+  margin-bottom: 0;
+}
+
+/* Question 3: Stopwatch */
+.stopwatch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.toggle-unmount-area {
+  margin-top: 8px;
+}
+
+.toggle-btn {
+  background: #6c757d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 16px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.toggle-btn:hover {
+  background: #5c636a;
+}
+
+.unmounted-box {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Page Footer */
+.page-footer {
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.88rem;
+  padding: 20px 0;
+}
